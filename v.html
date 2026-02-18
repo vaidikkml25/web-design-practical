@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Image Example</title>
+</head>
+<body>
+  <h1>Click the Button to Load an Image</h1>
+  <button onclick="loadImage()">Load Image</button>
+  <div id="image-container"></div>
+
+  <script>
+    function loadImage() {
+      const img = document.createElement("img");
+      img.src = "https://www.example.com/image.jpg"; // Image URL
+      img.alt = "Dynamically added image";
+      document.getElementById("image-container").appendChild(img);
+    }
+  </script>
+</body>
+</html>
