@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extended Profile Page</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Linking to the external CSS file -->
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Profile Banner -->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Welcome to My Profile</h1>
+      <p>Discover who I am, what I do, and how I can help you achieve your goals.</p>
+    </div>
+  </section>
+
+  <!-- Profile Container -->
+  <div class="profile-container">
+    <!-- Left Section (Profile Info) -->
+    <div class="profile-left">
+      <div class="profile-header">
+        <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-image">
+        <div class="profile-info">
+          <h2>Vaidik Katre</h2>
+          <p>Senior Software Engineer | Web Developer | Tech Enthusiast</p>
+        </div>
+      </div>
+
+      <div class="profile-summary">
+        <h3>About Me</h3>
+        <p>
+          I am a passionate Software Engineer with over 8 years of experience in web development and design.
+          I specialize in building scalable and efficient web applications. I work primarily with technologies
+          like JavaScript, React, Node.js, and Python. I'm always eager to learn new things and stay updated
+          with the latest industry trends.
+        </p>
+        <p>
+          I believe in delivering quality, maintainable code that provides value to users and drives the business
+          forward. My strong problem-solving skills, collaborative attitude, and attention to detail make me an
+          asset to any team.
+        </p>
+      </div>
+
+      <div class="profile-experience">
+        <h3>Experience</h3>
+        <ul>
+          <li>
+            <h4>Senior Software Engineer</h4>
+            <p>XYZ Corporation (2030 - Present)</p>
+            <p>Lead developer on a number of major projects, collaborating closely with cross-functional teams to
+              design, develop, and deploy full-stack web applications.</p>
+          </li>
+          <li>
+            <h4>Junior Web Developer</h4>
+            <p>ABC Solutions (2030 - 2050)</p>
+            <p>Worked on front-end development using HTML, CSS, and JavaScript, improving the overall user
+              experience of the client's websites.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="profile-education">
+        <h3>Education</h3>
+        <ul>
+          <li>
+            <h4>Bachelor of Science in Computer Science(Artificial IntelligenceAnd Machine Learning) </h4>
+            <p>University of Tech (2025 - 2029)</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right Section (Sidebar for Contact & Social Links) -->
+    <div class="profile-right">
+      <div class="sidebar">
+        <h3>Contact Information</h3>
+        <ul>
+          <li><strong>Email:</strong> vaidikk.ml25@sbjit.edu.in</li>
+          <li><strong>Phone:</strong> 1234567890 </li>
+          <li><strong>Location:</strong>Los Angeles</li>
+        </ul>
+      </div>
+
+      <div class="sidebar">
+        <h3>Social Links</h3>
+        <ul>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar">
+        <h3>Skills</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+          <li>Python</li>
+          <li>CSS & HTML</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2026 Vaidik Katre. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+</body>
+</html>
