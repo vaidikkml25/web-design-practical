@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page</title>
+  <style>
+    /* Reset some default styles */
+    body, h1, h2, h3, p, ul {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Page background and general layout */
+    body {
+      background-color: #f4f7f6;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+      font-size: 16px;
+    }
+
+    /* Navigation Bar Style */
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul {
+      list-style-type: none;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Profile Container */
+    .profile-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      margin-top: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-left {
+      flex: 2;
+      padding-right: 20px;
+    }
+
+    .profile-right {
+      flex: 1;
+      padding-left: 20px;
+      background-color: #f7f7f7;
+      border-radius: 8px;
+    }
+
+    /* Profile Image */
+    .profile-image {
+      width: 100%;
+      max-width: 150px;
+      border-radius: 50%;
+      border: 4px solid #ddd;
+      margin-bottom: 15px;
+    }
+
+    /* Profile Info */
+    .profile-info {
+      padding: 10px 0;
+    }
+
+    .profile-info h2 {
+      font-size: 22px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .profile-info p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    /* Sidebar for contact and social links */
+    .sidebar {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar h3 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .sidebar ul {
+      list-style-type: none;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 8px;
+    }
+
+    .sidebar ul li a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .sidebar ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer Style */
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      background-color: #333;
+      color: #fff;
+      border-radius: 8px;
+    }
+
+    footer p {
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Profile</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Profile Page Content -->
+  <div class="profile-container">
+    <!-- Left Section (Profile Info) -->
+    <div class="profile-left">
+      <div class="profile-info">
+        <h2>Vaidik Katre</h2>
+        <p>Software Engineer | Web Developer | Tech Enthusiast</p>
+      </div>
+
+      <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-image">
+
+      <div class="profile-info">
+        <h3>About Me</h3>
+        <p>I am passionate about technology, web development, and open-source projects. I have worked with several front-end and back-end technologies, including HTML, CSS, JavaScript, Node.js, and Python. My goal is to continually learn and improve my skills to create user-friendly web applications.</p>
+      </div>
+
+      <div class="profile-info">
+        <h3>Experience</h3>
+        <p>• Senior Developer at XYZ Corp (2020 - Present)</p>
+        <p>• Junior Developer at ABC Tech (2018 - 2020)</p>
+      </div>
+    </div>
+
+    <!-- Right Section (Sidebar for Contact & Social) -->
+    <div class="profile-right">
+      <div class="sidebar">
+        <h3>Contact Information</h3>
+        <ul>
+          <li><strong>Email:</strong> vaidikk.ml25@sbjit.edu.in</li>
+          <li><strong>Phone:</strong> 1234567890</li>
+        </ul>
+      </div>
+
+      <div class="sidebar">
+        <h3>Social Links</h3>
+        <ul>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Ashish Chakraborty. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
