@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tribute Page - Swami Vivekananda</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana, sans-serif;
+            background: linear-gradient(to right, #fff3e0, #ffe0b2);
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #e65100;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: yellow;
+        }
+
+        /* Main Container */
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+
+        /* Left Section */
+        .left {
+            width: 30%;
+            text-align: center;
+            background-color: #ffe0b2;
+            padding: 20px;
+            border-right: 3px solid #e65100;
+        }
+
+        .left img {
+            width: 180px;
+            height: 180px;
+            border-radius: 10px;
+            border: 4px solid #e65100;
+        }
+
+        /* Right Section */
+        .right {
+            width: 70%;
+            padding: 20px;
+            background-color: white;
+        }
+
+        h1 {
+            color: #e65100;
+        }
+
+        h2 {
+            color: #bf360c;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            background-color: #e65100;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Biography</a>
+        <a href="#">Teachings</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="container">
+
+        <!-- Left Side -->
+        <div class="left">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Swami_Vivekananda.jpg" alt="Swami Vivekananda">
+            <h2>Swami Vivekananda</h2>
+            <p>Spiritual Leader</p>
+        </div>
+
+        <!-- Right Side -->
+        <div class="right">
+            <h1>About</h1>
+            <p>
+                Swami Vivekananda was a great Indian monk and philosopher who introduced
+                Indian philosophies of Vedanta and Yoga to the Western world.
+            </p>
+
+            <h2>Achievements</h2>
+            <ul>
+                <li>Speech at Chicago Parliament of Religions (1893)</li>
+                <li>Founder of Ramakrishna Mission</li>
+                <li>Inspired youth with his teachings</li>
+            </ul>
+
+            <h2>Famous Quote</h2>
+            <p><i>"Arise, awake, and stop not till the goal is reached."</i></p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Profile Page using Internal CSS</p>
+    </div>
+
+</body>
+</html>
