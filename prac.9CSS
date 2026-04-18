@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Responsive CSS3 Webpage</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+nav {
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00adb5;
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #00adb5, #393e46);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    animation: fadeIn 2s ease-in;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin-top: 10px;
+}
+
+/* Button */
+.btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: white;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* Multi-column section */
+.columns {
+    padding: 40px;
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.columns p {
+    margin-bottom: 15px;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card {
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.4s;
+}
+
+.card i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #00adb5;
+}
+
+.card:hover {
+    transform: rotate(5deg) scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media(max-width: 768px) {
+    .columns {
+        column-count: 1;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>MySite</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <h1>Modern Responsive Design</h1>
+    <p>Using CSS3 Features & Animations</p>
+    <button class="btn">Explore</button>
+</section>
+
+<!-- Multi Column Content -->
+<section class="columns">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia.</p>
+    <p>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+    <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+    <p>Duis sagittis ipsum. Praesent mauris.</p>
+    <p>Fusce nec tellus sed augue semper porta.</p>
+    <p>Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+</section>
+
+<!-- Cards Section -->
+<section class="cards">
+    <div class="card">
+        <i class="fas fa-code"></i>
+        <h3>Development</h3>
+        <p>Clean and efficient coding practices.</p>
+    </div>
+
+    <div class="card">
+        <i class="fas fa-paint-brush"></i>
+        <h3>Design</h3>
+        <p>Creative and modern UI designs.</p>
+    </div>
+
+    <div class="card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Responsive</h3>
+        <p>Works on all devices smoothly.</p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Responsive Web Design</p>
+</footer>
+
+</body>
+</html>
